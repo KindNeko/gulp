@@ -3,7 +3,6 @@ import webpHtmlNosvg from 'gulp-webp-html-nosvg'; // преобразовани�
 import versionNumber from 'gulp-version-number'; // добавка ключа от кеширования файлов в браузере
 import htmlMin from 'gulp-htmlmin';
 
-
 export const html = () => {
 	return app.gulp.src(app.path.src.html)
 
@@ -20,7 +19,6 @@ export const html = () => {
 		.pipe(app.plugins.rename({ extname: '.min.html' }))
 		.pipe(app.plugins.if(app.isBuild, htmlMin({ collapseWhitespace: true })))
 		.pipe(app.gulp.dest(app.path.build.html))
-
 
 		.pipe(app.plugins.replace(/@img\//g, 'images/'))
 
