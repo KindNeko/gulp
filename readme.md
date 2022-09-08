@@ -27,6 +27,9 @@
 			<li id="used__item">В консоли написать npm i</li>
 			<li id="used__item">Дождаться установки всех зависимостей</li>
 			<li id="used__item">npm run dev - запуск в режиме разработчика (некоторые функции ограничены)</li>
+			<li id="used__item">npm run zip - создание zip архива</li>
+			<li id="used__item">npm run deploy - отправка на хостинг (надо зайти в config и  заполнить строки своими данными</li>
+			<li id="used__item">npm run dev - запуск в режиме разработчика (некоторые функции ограничены)</li>
 			<li id="used__item">npm run build (когда проект готов, сжимает айлы, добавляет префиксы, преобразует изображения и т.д.)</li>
 			<li id="used__item">В файле gitignore заменить элементы на свои перед пушем в git</li>
 			<li id="used__item">В gitignore должна остаться папка node_modules</li>
