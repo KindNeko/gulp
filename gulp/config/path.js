@@ -4,7 +4,7 @@ const rootFolder = nodePath.basename(nodePath.resolve());
 
 // Основные пути к результатам и исходникам
 const buildFolder = './public';
-const srcFolder = './src';
+const srcFolder = './app';
 
 // Все пути
 export const path = {
@@ -22,7 +22,7 @@ export const path = {
         svg: `${srcFolder}/images/**/*.svg`,
         scss: `${srcFolder}/scss/style.scss`,
         css: `${srcFolder}/css/style.css`,
-        html: `${srcFolder}/*.html`,
+        html: `${srcFolder}/view/**/*.html`,
         files: `${srcFolder}/files/**/*.*`,
         svgicons: `${srcFolder}/svgicons/*.svg`,
     },

@@ -10,7 +10,8 @@
 		<h3 id="capabilities__title">Возможности:</h3>
 		<ul id="capabilities__list">
 			<li id="capabilities__item">Сжатие файлов</li>
-			<li id="capabilities__item">подключение файлов к друг другу</li>
+			<li id="capabilities__item">Конвертация шрифтов</li>
+			<li id="capabilities__item">Подключение файлов к друг другу</li>
 			<li id="capabilities__item">Преобразование изображение в формат webp, создание svg-спрайтов</li>
 			<li id="capabilities__item">Добавление вендорных префиксов</li>
 			<li id="capabilities__item">Отправка файлов на сервер вместо человека</li>
@@ -29,7 +30,6 @@
 			<li id="used__item">npm run dev - запуск в режиме разработчика (некоторые функции ограничены)</li>
 			<li id="used__item">npm run zip - создание zip архива</li>
 			<li id="used__item">npm run deploy - отправка на хостинг (надо зайти в config и  заполнить строки своими данными</li>
-			<li id="used__item">npm run dev - запуск в режиме разработчика (некоторые функции ограничены)</li>
 			<li id="used__item">npm run build (когда проект готов, сжимает айлы, добавляет префиксы, преобразует изображения и т.д.)</li>
 			<li id="used__item">В файле gitignore заменить элементы на свои перед пушем в git</li>
 			<li id="used__item">В gitignore должна остаться папка node_modules</li>
