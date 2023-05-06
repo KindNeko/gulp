@@ -1,0 +1,15 @@
+@import 'font.scss';
+@import 'reset.scss';
+@import 'widget.scss';
+@import 'vars.scss';
+@import 'global.scss';
+@import 'hamburger.scss';
+@import 'header.scss';
+@import 'footer.scss';
+
+.main {
+    background-color: $background-color;
+}
+
+@import 'animation.scss';
+@import 'adaptive.scss';
