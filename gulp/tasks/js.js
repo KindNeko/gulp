@@ -9,6 +9,8 @@ export const js = () => {
                 message: error.message
             }))
         }))
+    
+        .pipe(app.gulp.dest(app.path.build.js))
 
         .pipe(webpack({
             mode: app.isBuild ? 'production': 'development', 
