@@ -1,0 +1,16 @@
+@import "./font.scss";
+@import "./reset.scss";
+@import "./widget.scss";
+@import "./vars.scss";
+@import "./global.scss";
+@import "./mixins.scss";
+@import "../blocks/menu/menu.scss";
+@import "../widget/header/header.scss";
+@import "../widget/footer/footer.scss";
+
+.main {
+  background-color: none;
+}
+
+@import "animation.scss";
+@import "adaptive.scss";
