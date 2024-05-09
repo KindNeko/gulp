@@ -1,16 +1,18 @@
+//common
 @import "./font.scss";
 @import "./reset.scss";
 @import "./widget.scss";
 @import "./vars.scss";
 @import "./global.scss";
 @import "./mixins.scss";
+
+//blocks
 @import "../blocks/menu/menu.scss";
-@import "../widget/header/header.scss";
-@import "../widget/footer/footer.scss";
+@import "../blocks/header/header.scss";
+@import "../blocks/footer/footer.scss";
 
-.main {
-  background-color: none;
-}
+//widget
 
+// animation, adaptive
 @import "animation.scss";
 @import "adaptive.scss";

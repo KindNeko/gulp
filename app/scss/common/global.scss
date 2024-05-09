@@ -1,17 +1,15 @@
-body {}
+@import "./vars.scss";
+@import "./mixins.scss";
 
-.wrapper {
-    min-height: 100%;
-    display: flex;
-    flex-direction: column;
+body {
 }
 
-.container {
-    max-width: 0px;
-    padding: 0px 10px;
-    margin: 0 auto;
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .main {
-    flex-grow: 1;
+  flex-grow: 1;
 }

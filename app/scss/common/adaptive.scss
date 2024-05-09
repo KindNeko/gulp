@@ -1,3 +1,11 @@
-@import "../widget/footer/footer-adaptive.scss";
-@import "../widget/header/header-adaptive.scss";
+//common
+@import "./vars.scss";
+@import "./mixins.scss";
+
+//widget
+
+//blocks
 @import "../blocks/menu/menu-adaptive.scss";
+@import "../blocks/header/header-adaptive.scss";
+@import "../blocks/footer/footer-adaptive.scss";
+@import "../blocks/main/main-adaptive.scss";

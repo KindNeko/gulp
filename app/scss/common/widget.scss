@@ -1,7 +1,29 @@
-.flex {
-    display: flex;
+@import "./vars.scss";
+
+.container {
+  max-width: 0px;
+  padding: 0px 10px;
+  margin: 0 auto;
 }
 
-.grid {
-    display: grid;
+.flex-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-columns-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.title-content {
+  font-family: "roboto";
+  font-size: 0px;
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+.section-padding {
+  padding: 0px 0;
 }

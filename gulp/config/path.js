@@ -27,7 +27,7 @@ export const path = {
     svgicons: `${srcFolder}/svgicons/*.svg`,
   },
   wath: {
-    js: `${srcFolder}/js/**/*.js`,
+    js: `${srcFolder}/js/**/**/*.js`,
     scss: `${srcFolder}/*/**/*.scss`,
     css: `${srcFolder}/*/**/*.css`,
     html: `${srcFolder}/**/*.html`,
