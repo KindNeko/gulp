@@ -12,7 +12,7 @@
 			<li id="capabilities__item">Сжатие файлов</li>
 			<li id="capabilities__item">Конвертация шрифтов</li>
 			<li id="capabilities__item">Подключение файлов к друг другу</li>
-			<li id="capabilities__item">Преобразование изображение в формат webp, создание svg-спрайтов</li>
+			<li id="capabilities__item">Преобразование изображение в формат webp</li>
 			<li id="capabilities__item">Добавление вендорных префиксов</li>
 			<li id="capabilities__item">Отправка файлов на сервер вместо человека</li>
 			<li id="capabilities__item">Создание zip архива</li>
