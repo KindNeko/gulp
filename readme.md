@@ -17,7 +17,6 @@
 			<li id="capabilities__item">Отправка файлов на сервер вместо человека</li>
 			<li id="capabilities__item">Создание zip архива</li>
 			<li id="capabilities__item">Вывод видных ошибок в консоль</li>
-			<li id="capabilities__item">Подключение json файлов в html и использование json данных в вёрстке</li>
 			<li id="capabilities__item">Объединение одинаковых медиа запросов в 1 запрос</li>
 		</ul>
 	</div>
